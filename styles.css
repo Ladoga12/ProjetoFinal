@@ -19,7 +19,7 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
-  --bs-teal: #1abc9c;
+  --bs-teal: #000000;
   --bs-cyan: #0dcaf0;
   --bs-black: #000;
   --bs-white: #fff;
@@ -34,7 +34,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
+  --bs-primary: #000000;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #1abc9c;
-  --bs-link-hover-color: #15967d;
+  --bs-link-color: #000000;
+  --bs-link-hover-color: #5b81a7;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -490,6 +490,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .display-1 {
@@ -595,7 +596,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -2846,11 +2847,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #1abc9c;
-  --bs-btn-border-color: #1abc9c;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #16a085;
-  --bs-btn-hover-border-color: #15967d;
+  --bs-btn-hover-bg: #2c3e50;
+  --bs-btn-hover-border-color: #2c3e50;
   --bs-btn-focus-shadow-rgb: 60, 198, 171;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #15967d;
@@ -7665,6 +7666,7 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  text-align: justify;
 }
 
 .mb-5 {
@@ -10909,7 +10911,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #000000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10937,11 +10939,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #000000;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #000000;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
